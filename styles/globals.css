@@ -1,4 +1,5 @@
 * {
+  font-family: "Fira Code", monospace;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -6,5 +7,5 @@
 
 body {
   color: #ffffff;
-  background: #1e1e1e;
+  background: #282c33;
 }

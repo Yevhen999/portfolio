@@ -1,18 +1,15 @@
-import Link from "next/link";
-import { GrMenu } from "react-icons/gr";
+import Navbar from "./Navbar.js";
+import Footer from "./Footer";
+import styles from "../styles/Layout.module.css";
 
-const NavBar = ({ href, text }) => {
+const Layout = ({ children }) => {
   return (
-    <div>
-      <div>
-        <Link href={href}>{text}</Link>
-        {/* <button onClick={() => console.log("Menu")}> */}
-        <GrMenu size={24} color="white" />
-        {/* </button> */}
-      </div>
-      <h1>Hello</h1>
+    <div className={styles.container}>
+      <Navbar />
+      <main>{children}</main>
+      <Footer />
     </div>
   );
 };
 
-export default NavBar;
+export default Layout;
