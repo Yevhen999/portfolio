@@ -15,10 +15,23 @@
   margin-right: 8px;
 }
 
-.navbarLink {
+.navbarName {
   text-decoration: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.31;
   color: #ffffff;
 }
+
+.navbarLinks {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+/* .section-about {
+  display: none;
+  padding-top: 0;
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+} */
