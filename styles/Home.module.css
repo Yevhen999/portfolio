@@ -1,0 +1,19 @@
+/* .hero {
+} */
+
+.heroTitle {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.31;
+}
+
+.heroTitleText {
+  color: #c778dd;
+}
+
+.heroText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #abb2bf;
+}

@@ -26,7 +26,9 @@ const Navbar = () => {
             <ul className={styles.navbarList}>
               {navLinks.map((link) => (
                 <li key={link}>
-                  <p className={styles.navbarItemText}>{link}</p>
+                  <Link href="/" className={styles.navbarItemText}>
+                    {link}
+                  </Link>
                 </li>
               ))}
             </ul>
