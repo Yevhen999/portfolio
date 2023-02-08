@@ -3,8 +3,6 @@ import menu from "../public/menu.svg";
 import logo from "../public/logo.svg";
 import Link from "next/link";
 import styles from "../styles/Navbar.module.css";
-// import MediaQuery from "react-responsive";
-
 import dynamic from "next/dynamic";
 
 const MediaQuery = dynamic(() => import("react-responsive"), {
@@ -24,15 +22,19 @@ const Navbar = () => {
           </Link>
         </div>
         <MediaQuery minWidth={768}>
-          <ul className={styles.navbarLinks}>
-            {navLinks.map((link) => (
-              <li key={link}>
-                <p>{link}</p>
-              </li>
-            ))}
-          </ul>
+          <nav>
+            <ul className={styles.navbarList}>
+              {navLinks.map((link) => (
+                <li key={link}>
+                  <p className={styles.navbarItemText}>{link}</p>
+                </li>
+              ))}
+            </ul>
+          </nav>
         </MediaQuery>
-        <Image src={menu} alt="menu icon" />
+        <MediaQuery maxWidth={767}>
+          <Image src={menu} alt="menu icon" />
+        </MediaQuery>
       </div>
     </header>
   );
