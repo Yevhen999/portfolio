@@ -1,5 +1,7 @@
-/* .hero {
-} */
+.hero {
+  padding-top: 34px;
+  padding-bottom: 47px;
+}
 
 .heroTitle {
   font-weight: 600;
@@ -16,4 +18,34 @@
   font-size: 16px;
   line-height: 1.31;
   color: #abb2bf;
+  margin-top: 25px;
+  margin-bottom: 24px;
+}
+
+.heroImgWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.markWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.heroBotText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #abb2bf;
+  margin-left: 10px;
+}
+
+.heroLink {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #ffffff;
 }
