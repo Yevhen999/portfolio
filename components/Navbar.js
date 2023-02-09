@@ -1,8 +1,8 @@
 import Image from "next/image";
 import menu from "../public/menu.svg";
+import modalClose from "../public/modal-close.svg";
 import logo from "../public/logo.svg";
 import Link from "next/link";
-import Modal from "./Modal";
 import styles from "../styles/Navbar.module.css";
 import dynamic from "next/dynamic";
 
@@ -10,7 +10,7 @@ const MediaQuery = dynamic(() => import("react-responsive"), {
   ssr: false,
 });
 
-const Navbar = () => {
+const Navbar = ({ modal, toggle }) => {
   const navLinks = ["home", "works", "about-me", "contacts"];
 
   return (
@@ -36,10 +36,13 @@ const Navbar = () => {
           </nav>
         </MediaQuery>
         <MediaQuery maxWidth={767}>
-          <Image src={menu} alt="menu icon" />
+          {!modal ? (
+            <Image src={menu} alt="menu icon" onClick={toggle} />
+          ) : (
+            <Image src={modalClose} alt="modal close" onClick={toggle} />
+          )}
         </MediaQuery>
       </div>
-      <Modal />
     </header>
   );
 };
