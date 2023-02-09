@@ -2,6 +2,7 @@ import Image from "next/image";
 import menu from "../public/menu.svg";
 import logo from "../public/logo.svg";
 import Link from "next/link";
+import Modal from "./Modal";
 import styles from "../styles/Navbar.module.css";
 import dynamic from "next/dynamic";
 
@@ -38,6 +39,7 @@ const Navbar = () => {
           <Image src={menu} alt="menu icon" />
         </MediaQuery>
       </div>
+      <Modal />
     </header>
   );
 };
