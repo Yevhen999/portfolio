@@ -19,6 +19,7 @@ const Home = () => {
       <div>
         <div className={styles.heroImgWrap}>
           <Image
+            priority
             className={styles.heroPhoto}
             src={heroPhoto}
             alt="hero-photo"

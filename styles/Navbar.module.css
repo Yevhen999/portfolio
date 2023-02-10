@@ -30,7 +30,8 @@
   gap: 32px;
 }
 
-.navbarItemText {
+.navbarLink {
+  text-decoration: none;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.31;

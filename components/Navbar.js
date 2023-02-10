@@ -27,7 +27,7 @@ const Navbar = ({ modal, toggle }) => {
             <ul className={styles.navbarList}>
               {navLinks.map((link) => (
                 <li key={link}>
-                  <Link href="/" className={styles.navbarItemText}>
+                  <Link href="/" className={styles.navbarLink}>
                     {link}
                   </Link>
                 </li>
