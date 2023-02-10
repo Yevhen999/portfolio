@@ -32,14 +32,19 @@
   justify-content: center;
   align-items: center;
   margin-top: 8px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 8px;
+  border: 1px solid #abb2bf;
+  max-width: 320px;
 }
 
 .heroBotText {
+  margin-left: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.31;
   color: #abb2bf;
-  margin-left: 10px;
 }
 
 .heroLink {
