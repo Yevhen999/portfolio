@@ -4,6 +4,7 @@ import styles from "../styles/Layout.module.css";
 import Home from "./Home";
 import ModalNav from "./ModalNav";
 import SocList from "./SocList";
+import Projects from "components/Projects";
 import { useState } from "react";
 import dynamic from "next/dynamic";
 
@@ -30,6 +31,7 @@ const Layout = () => {
         <main>
           {modal === false && <Home />}
           {!modal === false && <ModalNav />}
+          {modal === false && <Projects />}
         </main>
         <Footer />
       </div>
