@@ -11,7 +11,12 @@ const MediaQuery = dynamic(() => import("react-responsive"), {
 });
 
 const Navbar = ({ modal, toggle }) => {
-  const navLinks = ["home", "works", "about-me", "contacts"];
+  const navLinks = [
+    { name: "home", id: "#home" },
+    { name: "works", id: "#works" },
+    { name: "about-me", id: "#about-me" },
+    { name: "contacts", id: "#contacts" },
+  ];
 
   return (
     <header>
@@ -26,9 +31,9 @@ const Navbar = ({ modal, toggle }) => {
           <nav>
             <ul className={styles.navbarList}>
               {navLinks.map((link) => (
-                <li key={link}>
-                  <Link href="/" className={styles.navbarLink}>
-                    {link}
+                <li key={link.id}>
+                  <Link href={link.id} className={styles.navbarLink}>
+                    {link.name}
                   </Link>
                 </li>
               ))}

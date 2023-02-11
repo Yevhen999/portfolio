@@ -4,6 +4,7 @@ import heroPhoto from "../public/hero-group.png";
 import mark from "../public/mark.png";
 import Link from "next/link";
 import dynamic from "next/dynamic";
+import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
 
 const MediaQuery = dynamic(() => import("react-responsive"), {
   ssr: false,
@@ -11,7 +12,7 @@ const MediaQuery = dynamic(() => import("react-responsive"), {
 
 const HeroMob = () => {
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} id="home">
       <div className={styles.heroContentWrap}>
         <div className={styles.heroLeftSide}>
           <h1 className={styles.heroTitle}>
@@ -47,6 +48,18 @@ const HeroMob = () => {
               </span>
             </p>
           </div>
+        </div>
+      </div>
+      <div className={styles.quote}>
+        <div className={styles.quoteWrap}>
+          <ImQuotesLeft size={20} className={styles.quoteLeft} />
+          <p className={styles.quoteText}>
+            With great power comes great electricity bill
+          </p>
+          <ImQuotesRight size={20} className={styles.quoteRight} />
+        </div>
+        <div className={styles.quoteAuthorWrap}>
+          <p className={styles.quoteAuthor}>- Dr. Who</p>
         </div>
       </div>
     </section>
