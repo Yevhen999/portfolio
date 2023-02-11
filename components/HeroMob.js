@@ -50,18 +50,20 @@ const HeroMob = () => {
           </div>
         </div>
       </div>
-      <div className={styles.quote}>
-        <div className={styles.quoteWrap}>
-          <ImQuotesLeft size={20} className={styles.quoteLeft} />
-          <p className={styles.quoteText}>
-            With great power comes great electricity bill
-          </p>
-          <ImQuotesRight size={20} className={styles.quoteRight} />
+      <MediaQuery minWidth={768}>
+        <div className={styles.quote}>
+          <div className={styles.quoteWrap}>
+            <ImQuotesLeft size={20} className={styles.quoteLeft} />
+            <p className={styles.quoteText}>
+              With great power comes great electricity bill
+            </p>
+            <ImQuotesRight size={20} className={styles.quoteRight} />
+          </div>
+          <div className={styles.quoteAuthorWrap}>
+            <p className={styles.quoteAuthor}>- Dr. Who</p>
+          </div>
         </div>
-        <div className={styles.quoteAuthorWrap}>
-          <p className={styles.quoteAuthor}>- Dr. Who</p>
-        </div>
-      </div>
+      </MediaQuery>
     </section>
   );
 };
