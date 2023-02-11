@@ -1,3 +1,14 @@
+@media screen and (min-width: 768px) {
+  .sidebar {
+    display: flex;
+    justify-content: center;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin: 0 auto;
+    max-width: 1366px;
+  }
+}
+
 .container {
   padding-right: 16px;
   padding-left: 16px;
@@ -6,7 +17,11 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    padding-right: 171px;
-    padding-left: 171px;
+    padding-right: 122px;
+    padding-left: 122px;
+    margin: 0;
   }
+  /* .container::before {
+    content: "hello";
+  } */
 }

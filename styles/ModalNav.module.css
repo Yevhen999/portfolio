@@ -22,15 +22,3 @@
 /* .isActive {
   font-weight: 500;
 } */
-
-.socList {
-  list-style: none;
-  padding-top: 107px;
-  display: flex;
-  justify-content: center;
-  gap: 32px;
-}
-
-.socIcon {
-  fill: white;
-}

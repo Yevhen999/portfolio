@@ -1,0 +1,35 @@
+.socList {
+  list-style: none;
+  padding-top: 107px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .socList {
+    display: block;
+    padding-top: 0;
+  }
+  .socList::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 191px;
+    background: #abb2bf;
+    margin: 0 auto;
+    /* transform: rotate(90deg); */
+  }
+
+  .socItem:first-child {
+    margin-top: 14px;
+  }
+
+  .socItem:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.socIcon {
+  fill: white;
+}
