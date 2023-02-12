@@ -1,0 +1,39 @@
+.skills {
+  /* padding-top: 74px; */
+  padding-bottom: 106px;
+}
+
+.skillsTitleWrap {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 48px;
+}
+
+.skillsTitle {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.31;
+  color: #ffffff;
+}
+
+.skillsTitle::after {
+  content: "";
+  display: block;
+  margin-left: 16px;
+  height: 1px;
+  width: calc(100vw / 5);
+  background: #c778dd;
+}
+
+.skillsList {
+  list-style: none;
+  margin-left: auto;
+}
+
+.skillsItem {
+  margin-top: 10px;
+}

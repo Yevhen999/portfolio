@@ -7,6 +7,7 @@ import SocList from "./SocList";
 import Projects from "components/Projects";
 import { useState } from "react";
 import dynamic from "next/dynamic";
+import Skills from "components/Skills";
 
 const MediaQuery = dynamic(() => import("react-responsive"), {
   ssr: false,
@@ -32,6 +33,7 @@ const Layout = () => {
           {modal === false && <Home />}
           {!modal === false && <ModalNav />}
           {modal === false && <Projects />}
+          {modal === false && <Skills />}
         </main>
         <Footer />
       </div>
