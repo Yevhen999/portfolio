@@ -16,10 +16,10 @@ const Projects = () => {
         <li className={styles.projectsItem}>
           <Image
             className={styles.projectsBanner}
-            src="/public/logo.svg"
+            src="/pexels-mateusz-dach-424299.png"
             alt="Banner"
-            width={300}
-            height={300}
+            width={330}
+            height={200}
           />
           <p className={styles.projectsStack}>
             React, Redux, HTML, CSS, JS, Webpack, MUI
@@ -39,8 +39,8 @@ const Projects = () => {
             className={styles.projectsBanner}
             src="/public/logo.svg"
             alt="Banner"
-            width={300}
-            height={300}
+            width={100}
+            height={100}
           />
           <p className={styles.projectsStack}>
             HTML, CSS, JS, SASS, REST API, Parcel
@@ -59,8 +59,8 @@ const Projects = () => {
             className={styles.projectsBanner}
             src="/public/logo.svg"
             alt="Banner"
-            width={300}
-            height={300}
+            width={100}
+            height={100}
           />
           <p className={styles.projectsStack}>HTML, CSS, JS, SASS, Parcel</p>
           <h3 className={styles.projectsName}>Website creation</h3>

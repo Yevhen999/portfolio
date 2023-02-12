@@ -38,22 +38,27 @@
 
 .projectsList {
   display: flex;
-  justify-content: center;
-  align-items: baseline;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  /* align-items: baseline; */
   gap: 16px;
 }
 
 .projectsItem {
-  width: calc((100% - 64px) / 3);
+  max-width: calc((100% - 16px) / 2);
   list-style: none;
   padding-bottom: 16px;
   border: 1px solid #abb2bf;
 }
 
-/* .projectsBanner {
-} */
+@media screen and (min-width: 1200px) {
+  .projectsItem {
+    width: calc((100% - 32px) / 3);
+  }
+}
 
 .projectsStack {
+  min-height: 60px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.31;
@@ -74,6 +79,7 @@
 }
 
 .projectsDescription {
+  min-height: 85px;
   margin: 16px;
   margin-top: 0;
   font-weight: 400;
@@ -84,6 +90,11 @@
 
 .projectsBtn {
   padding-left: 16px;
-  display: flex;
-  gap: 16px;
+  /* display: flex; */
+  /* gap: 16px; */
+}
+
+.grow {
+  flex-grow: 1;
+  height: 100%;
 }
