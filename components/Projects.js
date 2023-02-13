@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import PrimaryBtn from "components/elements/Buttons/Primary";
 import styles from "styles/Projects.module.css";
+import phonebook from "public/pexels-mateusz-dach-424299.png";
 
 const Projects = () => {
   return (
@@ -16,10 +17,8 @@ const Projects = () => {
         <li className={styles.projectsItem}>
           <Image
             className={styles.projectsBanner}
-            src="/pexels-mateusz-dach-424299.png"
+            src={phonebook}
             alt="Banner"
-            width={330}
-            height={200}
           />
           <p className={styles.projectsStack}>
             React, Redux, HTML, CSS, JS, Webpack, MUI
@@ -37,10 +36,8 @@ const Projects = () => {
         <li className={styles.projectsItem}>
           <Image
             className={styles.projectsBanner}
-            src="/public/logo.svg"
+            src={phonebook}
             alt="Banner"
-            width={100}
-            height={100}
           />
           <p className={styles.projectsStack}>
             HTML, CSS, JS, SASS, REST API, Parcel
@@ -57,10 +54,8 @@ const Projects = () => {
         <li className={styles.projectsItem}>
           <Image
             className={styles.projectsBanner}
-            src="/public/logo.svg"
+            src={phonebook}
             alt="Banner"
-            width={100}
-            height={100}
           />
           <p className={styles.projectsStack}>HTML, CSS, JS, SASS, Parcel</p>
           <h3 className={styles.projectsName}>Website creation</h3>
