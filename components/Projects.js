@@ -2,7 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import PrimaryBtn from "components/elements/Buttons/Primary";
 import styles from "styles/Projects.module.css";
-import phonebook from "public/pexels-mateusz-dach-424299.png";
+import phonebook from "public/phonebook.png";
+import filmoteka from "public/filmoteka.jpg";
+import icecream from "public/icecream.jpg";
 
 const Projects = () => {
   return (
@@ -36,7 +38,7 @@ const Projects = () => {
         <li className={styles.projectsItem}>
           <Image
             className={styles.projectsBanner}
-            src={phonebook}
+            src={filmoteka}
             alt="Banner"
           />
           <p className={styles.projectsStack}>
@@ -54,7 +56,7 @@ const Projects = () => {
         <li className={styles.projectsItem}>
           <Image
             className={styles.projectsBanner}
-            src={phonebook}
+            src={icecream}
             alt="Banner"
           />
           <p className={styles.projectsStack}>HTML, CSS, JS, SASS, Parcel</p>
