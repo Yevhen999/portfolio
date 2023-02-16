@@ -8,6 +8,7 @@ import Projects from "components/Projects";
 import { useState } from "react";
 import dynamic from "next/dynamic";
 import Skills from "components/Skills";
+import About from "components/About";
 
 const MediaQuery = dynamic(() => import("react-responsive"), {
   ssr: false,
@@ -34,6 +35,7 @@ const Layout = () => {
           {!modal === false && <ModalNav />}
           {modal === false && <Projects />}
           {modal === false && <Skills />}
+          {modal === false && <About />}
         </main>
         <Footer />
       </div>

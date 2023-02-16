@@ -6,7 +6,13 @@ const Skills = () => {
     <section className={styles.skills}>
       <h2 className={styles.skillsTitle}>#skills</h2>
       <div className={styles.skillsTitleWrap}>
-        <Image src="/skills-group.png" width={349} height={282} />
+        <Image
+          priority
+          src="/skills-group.png"
+          width={349}
+          height={282}
+          alt="skills"
+        />
         <ul className={styles.skillsList}>
           <li className={styles.skillsItem}>
             <h3 className={styles.skillsName}>Languages</h3>
