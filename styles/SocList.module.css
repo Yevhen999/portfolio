@@ -33,6 +33,19 @@
   }
 }
 
-.socIcon {
-  fill: white;
+.socLink {
+  padding: 5px;
+  color: white;
 }
+
+.socLink:hover {
+  color: #c778dd;
+}
+
+.socIcon {
+  fill: currentColor;
+}
+
+/* .socIcon:hover {
+  fill: currentColor;
+} */

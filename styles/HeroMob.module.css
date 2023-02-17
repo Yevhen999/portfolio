@@ -6,6 +6,7 @@
 @media screen and (min-width: 768px) {
   .heroContentWrap {
     display: flex;
+    justify-content: space-between;
     align-items: center;
   }
   .heroLeftSide {

@@ -6,7 +6,8 @@
 .aboutWrap {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
+  margin-top: 48px;
 }
 
 .aboutTitle {
@@ -29,7 +30,6 @@
 
 .aboutTextWrap {
   width: 515px;
-  margin-top: 48px;
 }
 
 .aboutButton {

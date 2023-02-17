@@ -22,10 +22,6 @@ const Skills = () => {
             <h3 className={styles.skillsName}>Frameworks</h3>
             <p className={styles.skillsStack}>React Next.js</p>
           </li>
-          {/* <li className={styles.skillsItem}>
-            <h3 className={styles.skillsName}>Databases</h3>
-            <p className={styles.skillsStack}>Mongo</p>
-          </li> */}
           <li className={styles.skillsItem}>
             <h3 className={styles.skillsName}>Tools</h3>
             <p className={styles.skillsStack}>Git VSCode</p>

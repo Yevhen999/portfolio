@@ -12,7 +12,12 @@ const SocList = () => {
   return (
     <ul className={styles.socList}>
       <li className={styles.socItem}>
-        <Link href="https://github.com/Yevhen999" className={styles.socLink}>
+        <Link
+          href="https://github.com/Yevhen999"
+          className={styles.socLink}
+          target="_blank"
+          rel="nofollow noreferrer noopener"
+        >
           <MediaQuery maxWidth={767}>
             <GoMarkGithub className={styles.socIcon} size={46} />
           </MediaQuery>
@@ -25,6 +30,8 @@ const SocList = () => {
         <Link
           href="https://www.linkedin.com/in/yevhen-leshchenko/"
           className={styles.socLink}
+          target="_blank"
+          rel="nofollow noreferrer noopener"
         >
           <MediaQuery maxWidth={767}>
             <BsLinkedin className={styles.socIcon} size={46} />
