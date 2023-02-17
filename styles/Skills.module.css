@@ -39,7 +39,7 @@
 }
 
 .skillsItem {
-  /* margin-top: 10px; */
+  max-width: 220px;
   border: 1px solid #abb2bf;
 }
 
