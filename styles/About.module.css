@@ -3,7 +3,13 @@
   padding-bottom: 106px;
 }
 
-.aboutsTitle {
+.aboutWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.aboutTitle {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -21,10 +27,18 @@
   background: #c778dd;
 }
 
-.aboutsTitleWrap {
-  display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
-  margin-top: 12px;
-  margin-bottom: 48px;
+.aboutTextWrap {
+  width: 515px;
+  margin-top: 48px;
+}
+
+.aboutButton {
+  margin-top: 27px;
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #ffffff;
+  border: 1px solid #c778dd;
+  background: #282c33;
 }
