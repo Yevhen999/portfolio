@@ -9,6 +9,7 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 import Skills from "components/Skills";
 import About from "components/About";
+import Contacts from "components/Contacts/Contacts";
 
 const MediaQuery = dynamic(() => import("react-responsive"), {
   ssr: false,
@@ -31,11 +32,16 @@ const Layout = () => {
       <div className={styles.container}>
         <Navbar modal={modal} toggle={toggleModal} />
         <main>
-          {modal === false && <Home />}
           {!modal === false && <ModalNav />}
-          {modal === false && <Projects />}
-          {modal === false && <Skills />}
-          {modal === false && <About />}
+          {modal === false && (
+            <>
+              <Home />
+              <Projects />
+              <Skills />
+              <About />
+              <Contacts />
+            </>
+          )}
         </main>
         <Footer />
       </div>
