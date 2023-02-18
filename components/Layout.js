@@ -32,19 +32,20 @@ const Layout = () => {
         </MediaQuery>
         <div className={styles.container}>
           <Navbar modal={modal} toggle={toggleModal} />
-          <main>
-            {!modal === false && <ModalNav />}
-            {modal === false && (
-              <>
+          {!modal === false ? (
+            <ModalNav />
+          ) : (
+            <>
+              <main>
                 <Home />
                 <Projects />
                 <Skills />
                 <About />
                 <Contacts />
-              </>
-            )}
-          </main>
-          <Footer />
+              </main>
+              <Footer />
+            </>
+          )}
         </div>
       </div>
     </>
