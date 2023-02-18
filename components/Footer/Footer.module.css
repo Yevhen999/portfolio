@@ -1,0 +1,83 @@
+.footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-top: 1px solid #abb2bf;
+}
+
+.footerWrap {
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footerLogoWrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.footerLogo {
+  margin-right: 8px;
+}
+
+.footerName {
+  margin-right: 32px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.29;
+  color: #ffffff;
+}
+
+.footerMail {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #abb2bf;
+}
+
+.footerText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #ffffff;
+}
+
+.footerListTitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.31;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footerList {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+.footerLink {
+  display: flex;
+  padding: 6px;
+  text-decoration: none;
+  color: #abb2bf;
+}
+
+.footerLink:hover {
+  color: #c778dd;
+}
+
+.footerListIcon {
+  fill: currentColor;
+}
+
+.footerCopyright {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #abb2bf;
+}

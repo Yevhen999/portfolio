@@ -1,0 +1,78 @@
+.contacts {
+  padding-bottom: 106px;
+}
+
+.contactsTitle {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.31;
+  color: #ffffff;
+}
+
+.contactsTitle::after {
+  content: "";
+  display: block;
+  margin-left: 16px;
+  height: 1px;
+  width: calc(100vw / 5);
+  background: #c778dd;
+}
+
+.contactsWrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+
+.contactsTextWrap {
+  max-width: 530px;
+}
+
+.contactsText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #abb2bf;
+}
+
+.contactsListWrap {
+  padding: 16px;
+  border: 1px solid #abb2bf;
+}
+
+.contactsListTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.contactsList {
+  list-style: none;
+}
+
+.contactsItem:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.contactsLink {
+  display: flex;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #abb2bf;
+}
+
+.contactsLink:hover {
+  color: #c778dd;
+}
+
+.contactsListIcon {
+  margin-right: 9px;
+  fill: currentColor;
+}

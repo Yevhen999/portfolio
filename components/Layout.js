@@ -1,6 +1,6 @@
 import Navbar from "./Navbar.js";
-import Footer from "./Footer";
-import styles from "../styles/Layout.module.css";
+import Footer from "components/Footer/Footer";
+import styles from "styles/Layout.module.css";
 import Home from "./Home";
 import ModalNav from "./ModalNav";
 import SocList from "./SocList";
@@ -23,29 +23,31 @@ const Layout = () => {
   };
 
   return (
-    <div className={styles.sidebar}>
-      <MediaQuery minWidth={768}>
-        <aside>
-          <SocList />
-        </aside>
-      </MediaQuery>
-      <div className={styles.container}>
-        <Navbar modal={modal} toggle={toggleModal} />
-        <main>
-          {!modal === false && <ModalNav />}
-          {modal === false && (
-            <>
-              <Home />
-              <Projects />
-              <Skills />
-              <About />
-              <Contacts />
-            </>
-          )}
-        </main>
-        <Footer />
+    <>
+      <div className={styles.sidebar}>
+        <MediaQuery minWidth={768}>
+          <aside>
+            <SocList />
+          </aside>
+        </MediaQuery>
+        <div className={styles.container}>
+          <Navbar modal={modal} toggle={toggleModal} />
+          <main>
+            {!modal === false && <ModalNav />}
+            {modal === false && (
+              <>
+                <Home />
+                <Projects />
+                <Skills />
+                <About />
+                <Contacts />
+              </>
+            )}
+          </main>
+          <Footer />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
