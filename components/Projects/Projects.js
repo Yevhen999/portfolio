@@ -1,6 +1,5 @@
 import Image from "next/image";
-// import Link from "next/link";
-import PrimaryBtn from "components/elements/Buttons/Primary";
+import Link from "next/link";
 import styles from "./Projects.module.css";
 import phonebook from "public/phonebook.png";
 import filmoteka from "public/filmoteka.jpg";
@@ -30,9 +29,17 @@ const Projects = () => {
             A web application with authorization for creating and storing
             contact list with phone numbers.
           </p>
-          <div className={styles.projectsBtn}>
-            <PrimaryBtn />
-            {/* <PrimaryBtn /> */}
+          <div className={styles.projectsBtnWrap}>
+            <button type="button" className={styles.projectsBtn}>
+              <Link
+                href="https://yevhen999.github.io/phonebook/"
+                className={styles.projectsLink}
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+              >
+                Live ---
+              </Link>
+            </button>
           </div>
         </li>
         <li className={styles.projectsItem}>
@@ -48,9 +55,17 @@ const Projects = () => {
           <p className={styles.projectsDescription}>
             An application for movie search with personal library.
           </p>
-          <div className={styles.projectsBtn}>
-            <PrimaryBtn />
-            {/* <PrimaryBtn /> */}
+          <div className={styles.projectsBtnWrap}>
+            <button type="button" className={styles.projectsBtn}>
+              <Link
+                href="https://yevhen999.github.io/filmoteka-team-project-js/"
+                className={styles.projectsLink}
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+              >
+                Live ---
+              </Link>
+            </button>
           </div>
         </li>
         <li className={styles.projectsItem}>
@@ -64,9 +79,17 @@ const Projects = () => {
           <p className={styles.projectsDescription}>
             A website with a responsive layout. Landing page for a shop.
           </p>
-          <div className={styles.projectsBtn}>
-            <PrimaryBtn />
-            {/* <PrimaryBtn /> */}
+          <div className={styles.projectsBtnWrap}>
+            <button type="button" className={styles.projectsBtn}>
+              <Link
+                href="https://yevhen999.github.io/command-project-html-css/"
+                className={styles.projectsLink}
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+              >
+                Live ---
+              </Link>
+            </button>
           </div>
         </li>
       </ul>

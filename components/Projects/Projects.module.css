@@ -105,10 +105,23 @@
   color: #abb2bf;
 }
 
-.projectsBtn {
+.projectsBtnWrap {
   padding-left: 16px;
-  /* display: flex; */
-  /* gap: 16px; */
+}
+
+.projectsBtn {
+  padding: 8px 16px 8px 16px;
+  border: 1px solid #c778dd;
+  background: #282c33;
+  cursor: pointer;
+}
+
+.projectsLink {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #ffffff;
 }
 
 .grow {

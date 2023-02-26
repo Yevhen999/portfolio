@@ -26,7 +26,7 @@ const HeroMob = () => {
             <button type="button" className={styles.heroContactBtn}>
               <Link
                 href="mailto:leshchenkoyevhen@gmail.com"
-                className={styles.heroLink}
+                className={styles.heroBtnLink}
                 target="_blank"
                 rel="nofollow noreferrer noopener"
               >
@@ -49,8 +49,13 @@ const HeroMob = () => {
             <p className={styles.heroBotText}>
               Currently working on{" "}
               <span>
-                <Link className={styles.heroLink} href="/">
-                  Portfolio
+                <Link
+                  className={styles.heroLink}
+                  href="https://github.com/Yevhen999/nodejs-phonebook.git"
+                  target="_blank"
+                  rel="nofollow noreferrer noopener"
+                >
+                  Node.js
                 </Link>
               </span>
             </p>
