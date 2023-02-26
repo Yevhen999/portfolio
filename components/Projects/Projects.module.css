@@ -116,6 +116,10 @@
   cursor: pointer;
 }
 
+.projectsBtn:hover {
+  transform: scale(1.05);
+}
+
 .projectsLink {
   text-decoration: none;
   font-weight: 500;
