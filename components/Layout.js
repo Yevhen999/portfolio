@@ -4,7 +4,7 @@ import styles from "styles/Layout.module.css";
 import Home from "./Home";
 import ModalNav from "./ModalNav";
 import SocList from "./SocList";
-import Projects from "components/Projects";
+import Projects from "components/Projects/Projects";
 import { useState } from "react";
 import dynamic from "next/dynamic";
 import Skills from "components/Skills";
