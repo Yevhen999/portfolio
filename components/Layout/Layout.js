@@ -33,7 +33,7 @@ const Layout = () => {
         <div className={styles.container}>
           <Navbar modal={modal} toggle={toggleModal} />
           {!modal === false ? (
-            <ModalNav />
+            <ModalNav toggle={toggleModal} />
           ) : (
             <>
               <main>

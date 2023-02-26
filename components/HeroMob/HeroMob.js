@@ -24,7 +24,14 @@ const HeroMob = () => {
           </p>
           <MediaQuery minWidth={768}>
             <button type="button" className={styles.heroContactBtn}>
-              Contact me !!
+              <Link
+                href="mailto:leshchenkoyevhen@gmail.com"
+                className={styles.heroLink}
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+              >
+                Contact me !!
+              </Link>
             </button>
           </MediaQuery>
         </div>

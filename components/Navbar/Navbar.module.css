@@ -39,7 +39,7 @@
   color: #abb2bf;
 }
 
-.navbarItem:hover,
-.navbarItem:focus {
+.navbarLink:hover,
+.navbarLink:focus {
   color: white;
 }
