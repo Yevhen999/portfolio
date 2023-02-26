@@ -7,7 +7,7 @@ import { BsLinkedin } from "react-icons/bs";
 
 const Contacts = () => {
   return (
-    <section className={styles.contacts}>
+    <section className={styles.contacts} id="contacts">
       <h2 className={styles.contactsTitle}>#contacts</h2>
       <div className={styles.contactsWrap}>
         <div className={styles.contactsTextWrap}>

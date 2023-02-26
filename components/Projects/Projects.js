@@ -8,7 +8,7 @@ import icecream from "public/icecream.jpg";
 
 const Projects = () => {
   return (
-    <section className={styles.projects}>
+    <section className={styles.projects} id="projects">
       <div className={styles.projectsTitleWrap}>
         <h2 className={styles.projectsTitle}>#projects</h2>
         {/* <Link href="/" className={styles.projectsLink}>
@@ -44,7 +44,7 @@ const Projects = () => {
           <p className={styles.projectsStack}>
             HTML, CSS, JS, SASS, REST API, Parcel
           </p>
-          <h3 className={styles.projectsName}>Website Filmoteka</h3>
+          <h3 className={styles.projectsName}>The Movie</h3>
           <p className={styles.projectsDescription}>
             An application for movie search with personal library.
           </p>
