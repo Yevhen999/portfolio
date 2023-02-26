@@ -11,8 +11,6 @@ import Skills from "../Skills/Skills";
 import About from "../About/About";
 import Contacts from "../Contacts/Contacts";
 
-// console.log(first)
-
 const MediaQuery = dynamic(() => import("react-responsive"), {
   ssr: false,
 });

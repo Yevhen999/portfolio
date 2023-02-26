@@ -1,0 +1,133 @@
+.hero {
+  padding-top: 34px;
+  padding-bottom: 47px;
+}
+
+@media screen and (min-width: 768px) {
+  .heroContentWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .heroLeftSide {
+    margin-right: 18px;
+  }
+}
+
+.heroTitle {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.31;
+}
+
+.heroTitleText {
+  color: #c778dd;
+}
+
+.heroText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #abb2bf;
+  margin-top: 25px;
+  margin-bottom: 24px;
+}
+
+.heroContactBtn {
+  padding: 8px 16px 8px 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.31;
+  border: 1px solid #c778dd;
+  color: #ffffff;
+  background: #282c33;
+  cursor: pointer;
+}
+
+.heroImgWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.markWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 8px;
+  border: 1px solid #abb2bf;
+  max-width: 320px;
+}
+
+@media screen and (min-width: 768px) {
+  .markWrap {
+    max-width: 402px;
+  }
+}
+
+.heroBotText {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #abb2bf;
+}
+
+.heroLink {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #ffffff;
+}
+
+.quote {
+  margin: 0 auto;
+  max-width: 715px;
+}
+
+.quoteWrap {
+  margin-top: 112px;
+  position: relative;
+}
+
+.quoteText {
+  padding: 32px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.29;
+  color: #ffffff;
+  border: 1px solid #abb2bf;
+}
+
+.quoteAuthorWrap {
+  margin-top: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quoteAuthor {
+  padding: 16px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.29;
+  color: #ffffff;
+  border: 1px solid #abb2bf;
+  border-top: none;
+}
+
+.quoteLeft {
+  position: absolute;
+  top: 0%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.quoteRight {
+  position: absolute;
+  bottom: 0%;
+  right: 20px;
+  transform: translateY(+40%);
+}

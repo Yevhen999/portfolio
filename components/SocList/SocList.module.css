@@ -1,0 +1,51 @@
+.socList {
+  list-style: none;
+  padding-top: 107px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .socList {
+    display: block;
+    padding-top: 0;
+    position: fixed;
+  }
+  .socList::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 191px;
+    background: #abb2bf;
+    margin: 0 auto;
+
+    /* transition: transform 500ms height 400px; */
+    /* transform: rotate(90deg); */
+  }
+
+  .socItem:first-child {
+    margin-top: 14px;
+  }
+
+  .socItem:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.socLink {
+  padding: 5px;
+  color: white;
+}
+
+.socLink:hover {
+  color: #c778dd;
+}
+
+.socIcon {
+  fill: currentColor;
+}
+
+/* .socIcon:hover {
+  fill: currentColor;
+} */
