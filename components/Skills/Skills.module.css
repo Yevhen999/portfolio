@@ -23,7 +23,6 @@
 
 .skillsTitleWrap {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   margin-top: 12px;
   margin-bottom: 48px;
@@ -39,7 +38,7 @@
 }
 
 .skillsItem {
-  max-width: 220px;
+  width: 178px;
   border: 1px solid #abb2bf;
 }
 

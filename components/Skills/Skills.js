@@ -20,16 +20,16 @@ const Skills = () => {
           </li>
           <li className={styles.skillsItem}>
             <h3 className={styles.skillsName}>Frameworks</h3>
-            <p className={styles.skillsStack}>React Next.js</p>
+            <p className={styles.skillsStack}>React Next.js Express.js</p>
           </li>
           <li className={styles.skillsItem}>
             <h3 className={styles.skillsName}>Tools</h3>
-            <p className={styles.skillsStack}>Git VSCode</p>
+            <p className={styles.skillsStack}>Git VSCode Postman</p>
           </li>
           <li className={styles.skillsItem}>
             <h3 className={styles.skillsName}>Other</h3>
             <p className={styles.skillsStack}>
-              HTML CSS SASS Rest AJAX Redux RTK Webpack NPM BEM
+              HTML CSS SASS Rest AJAX Redux RTK GCP Bash Webpack NPM BEM Trello
             </p>
           </li>
           <li className={styles.skillsItem}>
@@ -39,8 +39,12 @@ const Skills = () => {
             </p>
           </li>
           <li className={styles.skillsItem}>
+            <h3 className={styles.skillsName}>Databases</h3>
+            <p className={styles.skillsStack}>MongoDB</p>
+          </li>
+          <li className={styles.skillsItem}>
             <h3 className={styles.skillsName}>Methodology</h3>
-            <p className={styles.skillsStack}>Agile/Scrum/Trello</p>
+            <p className={styles.skillsStack}>Agile/Scrum</p>
           </li>
         </ul>
       </div>
