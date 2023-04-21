@@ -25,7 +25,7 @@ const Footer = () => {
             </Link>
           </div>
           <p className={styles.footerText}>
-            Front-end developer based in Canada
+            Full Stack Developer based in Canada
           </p>
         </div>
         <div className={styles.footerListWrap}>

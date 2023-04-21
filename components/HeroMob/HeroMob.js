@@ -17,7 +17,7 @@ const HeroMob = () => {
         <div className={styles.heroLeftSide}>
           <h1 className={styles.heroTitle}>
             Yevhen is a{" "}
-            <span className={styles.heroTitleText}>frontend developer</span>
+            <span className={styles.heroTitleText}>Full Stack Developer</span>
           </h1>
           <p className={styles.heroText}>
             He crafts responsive websites where technologies meet creativity
@@ -51,11 +51,11 @@ const HeroMob = () => {
               <span>
                 <Link
                   className={styles.heroLink}
-                  href="https://github.com/Yevhen999/nodejs-phonebook.git"
+                  href="https://yevhen999.github.io/so-yummy/welcome"
                   target="_blank"
                   rel="nofollow noreferrer noopener"
                 >
-                  Node.js
+                  So-yummy
                 </Link>
               </span>
             </p>
