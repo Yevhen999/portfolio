@@ -4,10 +4,12 @@
 }
 
 .aboutWrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 48px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+  }
 }
 
 .aboutTitle {
@@ -29,7 +31,9 @@
 }
 
 .aboutTextWrap {
-  width: 515px;
+  @media screen and (min-width: 768px) {
+    width: 515px;
+  }
 }
 
 .aboutButton {

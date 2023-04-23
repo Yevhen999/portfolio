@@ -5,10 +5,12 @@
 }
 
 .footerWrap {
-  margin-bottom: 48px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 }
 
 .footerLogoWrap {
@@ -36,6 +38,9 @@
   font-size: 16px;
   line-height: 1.31;
   color: #abb2bf;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 
 .footerText {
@@ -43,6 +48,15 @@
   font-size: 16px;
   line-height: 1.31;
   color: #ffffff;
+}
+
+.footerListWrap {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .footerListTitle {

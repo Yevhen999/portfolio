@@ -21,13 +21,18 @@
 }
 
 .contactsWrap {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 48px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+  }
 }
 
 .contactsTextWrap {
   max-width: 530px;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 20px;
+  }
 }
 
 .contactsText {

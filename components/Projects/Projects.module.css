@@ -60,17 +60,14 @@
   list-style: none;
   padding-bottom: 16px;
   border: 1px solid #abb2bf;
-}
-
-@media screen and (min-width: 768px) {
-  .projectsItem {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 768px) {
     max-width: calc((100% - 16px) / 2);
   }
-}
-
-@media screen and (min-width: 1200px) {
-  .projectsItem {
-    width: calc((100% - 32px) / 3);
+  @media screen and (min-width: 768px) {
+    max-width: calc((100% - 16px) / 2);
   }
 }
 
