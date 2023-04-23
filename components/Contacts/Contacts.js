@@ -4,11 +4,12 @@ import styles from "./Contacts.module.css";
 import { TfiEmail } from "react-icons/tfi";
 import { GoMarkGithub } from "react-icons/go";
 import { BsLinkedin } from "react-icons/bs";
+import PageTitle from "../elements/PageTitle/PageTitle";
 
 const Contacts = () => {
   return (
     <section className={styles.contacts} id="contacts">
-      <h2 className={styles.contactsTitle}>#contacts</h2>
+      <PageTitle title="contacts" />
       <div className={styles.contactsWrap}>
         <div className={styles.contactsTextWrap}>
           <p className={styles.contactsText}>

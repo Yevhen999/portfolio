@@ -2,24 +2,6 @@
   padding-bottom: 106px;
 }
 
-.contactsTitle {
-  display: flex;
-  align-items: center;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 1.31;
-  color: #ffffff;
-}
-
-.contactsTitle::after {
-  content: "";
-  display: block;
-  margin-left: 16px;
-  height: 1px;
-  width: calc(100vw / 5);
-  background: #c778dd;
-}
-
 .contactsWrap {
   @media screen and (min-width: 768px) {
     display: flex;

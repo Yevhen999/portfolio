@@ -5,12 +5,13 @@ import phonebook from "public/phonebook.png";
 import filmoteka from "public/filmoteka.jpg";
 import icecream from "public/icecream.jpg";
 import soyummy from "public/soyummy.jpg";
+import PageTitle from "../elements/PageTitle/PageTitle";
 
 const Projects = () => {
   return (
     <section className={styles.projects} id="projects">
       <div className={styles.projectsTitleWrap}>
-        <h2 className={styles.projectsTitle}>#projects</h2>
+        <PageTitle title="projects" />
         {/* <Link href="/" className={styles.projectsLink}>
           View all ~~!{" "}
         </Link> */}

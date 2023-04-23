@@ -12,24 +12,6 @@
   }
 }
 
-.aboutTitle {
-  display: flex;
-  align-items: center;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 1.31;
-  color: #ffffff;
-}
-
-.aboutTitle::after {
-  content: "";
-  display: block;
-  margin-left: 16px;
-  height: 1px;
-  width: calc(100vw / 5);
-  background: #c778dd;
-}
-
 .aboutTextWrap {
   @media screen and (min-width: 768px) {
     width: 515px;

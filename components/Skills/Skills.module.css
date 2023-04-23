@@ -3,24 +3,6 @@
   padding-bottom: 106px;
 }
 
-.skillsTitle {
-  display: flex;
-  align-items: center;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 1.31;
-  color: #ffffff;
-}
-
-.skillsTitle::after {
-  content: "";
-  display: block;
-  margin-left: 16px;
-  height: 1px;
-  width: calc(100vw / 5);
-  background: #c778dd;
-}
-
 .skillsTitleWrap {
   margin-top: 12px;
   margin-bottom: 48px;

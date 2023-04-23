@@ -1,10 +1,11 @@
 import Image from "next/image";
 import styles from "./About.module.css";
+import PageTitle from "../elements/PageTitle/PageTitle";
 
 const About = () => {
   return (
     <section className={styles.about} id="about-me">
-      <h2 className={styles.aboutTitle}>#about-me</h2>
+      <PageTitle title="about-me" />
       <div className={styles.aboutWrap}>
         <div className={styles.aboutTextWrap}>
           <p className={styles.aboutText}>

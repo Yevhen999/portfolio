@@ -10,24 +10,6 @@
   margin-bottom: 48px;
 }
 
-.projectsTitle {
-  display: flex;
-  align-items: center;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 1.31;
-  color: #ffffff;
-}
-
-.projectsTitle::after {
-  content: "";
-  display: block;
-  margin-left: 16px;
-  height: 1px;
-  width: calc(100vw / 5);
-  background: #c778dd;
-}
-
 /* .projectsLink {
   text-decoration: none;
   font-weight: 500;

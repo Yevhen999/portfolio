@@ -1,10 +1,11 @@
 import Image from "next/image";
 import styles from "./Skills.module.css";
+import PageTitle from "../elements/PageTitle/PageTitle";
 
 const Skills = () => {
   return (
     <section className={styles.skills}>
-      <h2 className={styles.skillsTitle}>#skills</h2>
+      <PageTitle title="skills" />
       <div className={styles.skillsTitleWrap}>
         <Image
           priority
