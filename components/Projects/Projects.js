@@ -4,6 +4,7 @@ import styles from "./Projects.module.css";
 import phonebook from "public/phonebook.png";
 import filmoteka from "public/filmoteka.jpg";
 import icecream from "public/icecream.jpg";
+import soyummy from "public/soyummy.jpg";
 
 const Projects = () => {
   return (
@@ -15,6 +16,30 @@ const Projects = () => {
         </Link> */}
       </div>
       <ul className={styles.projectsList}>
+        <li className={styles.projectsItem}>
+          <Image className={styles.projectsBanner} src={soyummy} alt="Banner" />
+          <p className={styles.projectsStack}>
+            React, Redux, Node.js, Express.js, HTML, CSS, JS, Webpack,
+            Styled-components, Formik
+          </p>
+          <h3 className={styles.projectsName}>So-yummy</h3>
+          <p className={styles.projectsDescription}>
+            A web application with authorization for creating, editing and
+            storing own recipe list.
+          </p>
+          <div className={styles.projectsBtnWrap}>
+            <button type="button" className={styles.projectsBtn}>
+              <Link
+                href="https://yevhen999.github.io/so-yummy/welcome"
+                className={styles.projectsLink}
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+              >
+                Live ---
+              </Link>
+            </button>
+          </div>
+        </li>
         <li className={styles.projectsItem}>
           <Image
             className={styles.projectsBanner}
