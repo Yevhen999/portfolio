@@ -1,19 +1,26 @@
 import Image from "next/image";
 import styles from "./Skills.module.css";
 import PageTitle from "../elements/PageTitle/PageTitle";
+import dynamic from "next/dynamic";
+
+const MediaQuery = dynamic(() => import("react-responsive"), {
+  ssr: false,
+});
 
 const Skills = () => {
   return (
     <section className={styles.skills}>
       <PageTitle title="skills" />
       <div className={styles.skillsTitleWrap}>
-        <Image
-          priority
-          src="/skills-group.png"
-          width={349}
-          height={282}
-          alt="skills"
-        />
+        <MediaQuery minWidth={1024}>
+          <Image
+            priority
+            src="/skills-group.png"
+            width={349}
+            height={282}
+            alt="skills"
+          />
+        </MediaQuery>
         <ul className={styles.skillsList}>
           <li className={styles.skillsItem}>
             <h3 className={styles.skillsName}>Languages</h3>

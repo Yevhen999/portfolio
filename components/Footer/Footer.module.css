@@ -5,11 +5,18 @@
 }
 
 .footerWrap {
+  margin-bottom: 20px;
   @media screen and (min-width: 768px) {
     margin-bottom: 48px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+  }
+}
+
+.footerTextWrap {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 20px;
   }
 }
 

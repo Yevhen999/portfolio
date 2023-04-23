@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerWrap}>
-        <div>
+        <div className={styles.footerTextWrap}>
           <div className={styles.footerLogoWrap}>
             <Image className={styles.footerLogo} src={logo} alt="logo" />
             <Link className={styles.footerName} href="/">

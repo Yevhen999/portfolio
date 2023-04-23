@@ -4,8 +4,6 @@
 }
 
 .skillsTitleWrap {
-  margin-top: 12px;
-  margin-bottom: 48px;
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
@@ -20,11 +18,11 @@
   gap: 16px;
   margin-top: 20px;
   @media screen and (min-width: 768px) {
-    margin-left: 59px;
     display: flex;
-    /* align-items: center; */
+    justify-content: flex-start;
+  }
+  @media screen and (min-width: 1024px) {
     justify-content: flex-end;
-    align-items: stretch;
   }
 }
 
@@ -32,6 +30,9 @@
   width: 100%;
   border: 1px solid #abb2bf;
   @media screen and (min-width: 768px) {
+    width: calc((100% - 32px) / 3);
+  }
+  @media screen and (min-width: 1024px) {
     width: 178px;
   }
 }

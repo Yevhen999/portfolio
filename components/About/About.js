@@ -21,7 +21,7 @@ const About = () => {
             Read more --
           </button>
         </div>
-        <div className={styles.abotImageWrap}>
+        <div className={styles.aboutImageWrap}>
           <Image
             src="/about-group.png"
             alt="about-photo"
