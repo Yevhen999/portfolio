@@ -51,11 +51,11 @@ const HeroMob = () => {
               <span>
                 <Link
                   className={styles.heroLink}
-                  href="https://yevhen999.github.io/so-yummy/welcome"
+                  href="https://weather-app-yevhen999.vercel.app/"
                   target="_blank"
                   rel="nofollow noreferrer noopener"
                 >
-                  So-yummy
+                  Weather App
                 </Link>
               </span>
             </p>
