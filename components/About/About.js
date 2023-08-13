@@ -21,14 +21,15 @@ const About = () => {
             Read more --
           </button>
         </div>
-        <div className={styles.aboutImageWrap}>
-          <Image
-            src="/about-group.png"
-            alt="about-photo"
-            width={343}
-            height={508}
-          />
-        </div>
+        {/* <div className={styles.aboutImageWrap}> */}
+        <Image
+          className={styles.imgAbout}
+          src="/about-group.png"
+          alt="about-photo"
+          width={343}
+          height={508}
+        />
+        {/* </div> */}
       </div>
     </section>
   );
